@@ -25,7 +25,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/2S-Bergen/DevOpsFagkveld">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/devopslogo.png" alt="Logo" width="1146" height="649">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
