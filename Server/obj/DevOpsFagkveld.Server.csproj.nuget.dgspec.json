@@ -1,0 +1,236 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/eirik/code/DevOpsFagkveld/DevOpsFagkveld/Server/DevOpsFagkveld.Server.csproj": {}
+  },
+  "projects": {
+    "/home/eirik/code/DevOpsFagkveld/DevOpsFagkveld/Client/DevOpsFagkveld.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/eirik/code/DevOpsFagkveld/DevOpsFagkveld/Client/DevOpsFagkveld.Client.csproj",
+        "projectName": "DevOpsFagkveld.Client",
+        "projectPath": "/home/eirik/code/DevOpsFagkveld/DevOpsFagkveld/Client/DevOpsFagkveld.Client.csproj",
+        "packagesPath": "/home/eirik/.nuget/packages/",
+        "outputPath": "/home/eirik/code/DevOpsFagkveld/DevOpsFagkveld/Client/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/eirik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/eirik/code/DevOpsFagkveld/DevOpsFagkveld/Shared/DevOpsFagkveld.Shared.csproj": {
+                "projectPath": "/home/eirik/code/DevOpsFagkveld/DevOpsFagkveld/Shared/DevOpsFagkveld.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Authentication.WebAssembly.Msal": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.0, 6.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "/home/eirik/code/DevOpsFagkveld/DevOpsFagkveld/Server/DevOpsFagkveld.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/eirik/code/DevOpsFagkveld/DevOpsFagkveld/Server/DevOpsFagkveld.Server.csproj",
+        "projectName": "DevOpsFagkveld.Server",
+        "projectPath": "/home/eirik/code/DevOpsFagkveld/DevOpsFagkveld/Server/DevOpsFagkveld.Server.csproj",
+        "packagesPath": "/home/eirik/.nuget/packages/",
+        "outputPath": "/home/eirik/code/DevOpsFagkveld/DevOpsFagkveld/Server/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/eirik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/eirik/code/DevOpsFagkveld/DevOpsFagkveld/Client/DevOpsFagkveld.Client.csproj": {
+                "projectPath": "/home/eirik/code/DevOpsFagkveld/DevOpsFagkveld/Client/DevOpsFagkveld.Client.csproj"
+              },
+              "/home/eirik/code/DevOpsFagkveld/DevOpsFagkveld/Shared/DevOpsFagkveld.Shared.csproj": {
+                "projectPath": "/home/eirik/code/DevOpsFagkveld/DevOpsFagkveld/Shared/DevOpsFagkveld.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.0, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[6.0.0, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[1.16.0, )"
+            },
+            "Microsoft.Identity.Web.UI": {
+              "target": "Package",
+              "version": "[1.16.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/eirik/code/DevOpsFagkveld/DevOpsFagkveld/Shared/DevOpsFagkveld.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/eirik/code/DevOpsFagkveld/DevOpsFagkveld/Shared/DevOpsFagkveld.Shared.csproj",
+        "projectName": "DevOpsFagkveld.Shared",
+        "projectPath": "/home/eirik/code/DevOpsFagkveld/DevOpsFagkveld/Shared/DevOpsFagkveld.Shared.csproj",
+        "packagesPath": "/home/eirik/.nuget/packages/",
+        "outputPath": "/home/eirik/code/DevOpsFagkveld/DevOpsFagkveld/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/eirik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
